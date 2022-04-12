@@ -8,10 +8,9 @@ function Footer() {
             justifyContent='center'
             alignItems={'center'}
             p={10}
-            color='white'
             w='100%'>
             <Stack alignItems={'center'}>
-                <Text textAlign={'center'} textShadow='1px 1px 0px black' fontSize={'sm'} zIndex={50}>
+                <Text color='white' textAlign={'center'} textShadow='1px 1px 0px black' fontSize={'sm'} zIndex={50}>
                     Bored? visit the hamburger's{' '}
                     <Link href="https://www.artstation.com/jakecircles/profile" target={'_blank'}>3d artist</Link>
                 </Text>
