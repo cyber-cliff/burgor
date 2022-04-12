@@ -58,7 +58,7 @@ const Thinkerist  = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 1.125
+      const scale = scH * 0.005 + 6
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

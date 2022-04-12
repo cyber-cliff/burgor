@@ -19,7 +19,7 @@ function Main({children}:any) {
         alignItems={'center'}
         pl={{base:10, xl: 0}}
         pr={{base:10, xl: 0}}
-        pt={{base:10, md: 20}}
+        pt={{base:100, md: 20}}
         pb={10}
         maxW={'container.lg'}>
           <Box position={{base:'relative', md:'absolute'}}>
