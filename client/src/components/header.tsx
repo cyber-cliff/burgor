@@ -9,6 +9,7 @@ function Header() {
         top={0}
         position={'fixed'}
         bg={'#ffcf4a'}
+        color='white'
         zIndex={99}
       >
         <Container
