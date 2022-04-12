@@ -17,6 +17,7 @@ function Main({children}:any) {
         flexDirection={{base:'column', md:'row'}}
         justifyContent={'space-between'}
         alignItems={'center'}
+        color='white'
         pl={{base:10, xl: 0}}
         pr={{base:10, xl: 0}}
         pt={{base:100, md: 20}}
