@@ -28,7 +28,7 @@ const colors = {
 }
 
 const config = {
-  // initialColorMode: 'dark',
+  initialColorMode: 'dark'
   // useSystemColorMode: true
 }
 
