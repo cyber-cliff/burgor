@@ -5,12 +5,16 @@ function Item({category='', obj={name: 'null', src: '', price: 1}, reset, add}:a
     const [count, setCount] = useState(0);
     
     const handleMinus = () => {
-        if(count !== 0) setCount(count-1);
+        if(count <= 0) return
+        
+        setCount(count-1);
         add((prevAdd:any) => prevAdd - obj.price)
     }
     
     const handleAdd = () => {
-        if(count !== 99) setCount(count+1);
+        if(count >= 99) return
+
+        setCount(count+1);
         add((prevAdd:any) => prevAdd + obj.price)
     }
 
